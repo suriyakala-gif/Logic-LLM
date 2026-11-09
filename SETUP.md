@@ -1,21 +1,22 @@
 # Setup
 
-Copy these values from `logs/00_environment.log`.
+Values taken from `logs/00_environment.log`.
 
 | Item | Value |
 |---|---|
-| Date of run | [FILL, e.g. 2026-11-12] |
-| Platform | Google Colab ([FILL: CPU / T4 GPU] runtime) |
-| Operating system | [FILL, e.g. Ubuntu 22.04.4 LTS] |
-| Python | [FILL, e.g. 3.12.x] |
-| CPU / RAM | [FILL] |
-| GPU | None used. The symbolic solvers run on CPU. |
-| Original commit | [FILL: `git log -1 --format=%H` of the authors' last commit before your changes] |
-| Package versions | `requirements.txt` (from `pip freeze` after my run); the authors' original file is `requirements_original.txt` |
-| Symbolic solvers | Pyke (ProntoQA, ProofWriter), Prover9 (FOLIO), python-constraint (LogicalDeduction), Z3 (AR-LSAT) |
+| Date of run | 2026-11-09 |
+| Platform | Google Colab, CPU runtime |
+| Operating system | Ubuntu 24.04.5 LTS |
+| Python | 3.13.18 |
+| CPU / RAM | 2 vCPUs, 12 GiB RAM |
+| GPU | None. The symbolic solvers run on CPU. |
+| Original code | teacherpeterpan/Logic-LLM, commit `d29f1e5` |
+| Package versions | `requirements.txt` (the 8 packages used, from `pip freeze`); full Colab environment in `requirements_full_colab_freeze.txt`; the authors' file is `requirements_original.txt` |
+| Symbolic solvers | Pyke (`scitools-pyke` 1.1.1) for ProntoQA and ProofWriter; Prover9 (binary in the repo, via `nltk` 3.9.1) for FOLIO; `python-constraint` 1.4.0 for LogicalDeduction; Z3 (`z3-solver`) for AR-LSAT |
 | Seeds | 0, 1, 2 (`random.seed` and `numpy.random.seed`, set before each run) |
-| Total runtime | [FILL] min |
+| Memory cap | `ulimit -v 4000000` (about 4 GB) |
+| Total runtime | about 6 minutes for 5 datasets × 3 seeds |
 
-## Why seeds matter here
+## Why seeds matter
 
-Nothing is trained. The solvers are deterministic, but when a logic program fails to parse or execute, the authors' `random` backup picks a random answer. The seed controls those guesses, so I report mean ± std over 3 seeds.
+Nothing is trained. When a logic program cannot be parsed or executed, the `random` backup picks a random answer, and the seed controls that guess. So mean ± std over 3 seeds is reported. ProntoQA and LogicalDeduction execute 100% of programs, so their std is 0.

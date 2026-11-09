@@ -8,7 +8,7 @@ authors:
     orcid: "https://orcid.org/0000-0000-0000-0000"   # FILL: your ORCID (register free at orcid.org)
 repository-code: "https://github.com/suriyakala-gif/Logic-LLM"
 version: 1.0.0
-date-released: "2026-11-15"   # FILL: the date you create the v1.0.0 release
+date-released: "2026-11-09"
 preferred-citation:
   type: conference-paper
   title: "Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning"

@@ -35,8 +35,8 @@ class CSP_Program:
     def safe_execute(self, code_string: str, keys = None, debug_mode = False):
         def execute(x):
             try:
-                exec(x)
-                locals_ = locals()
+                locals_ = {}  # Python 3.13 fix (PEP 667): exec into an explicit dict
+                exec(x, globals(), locals_)
                 if keys is None:
                     return locals_.get('ans', None), ""
                 else:
