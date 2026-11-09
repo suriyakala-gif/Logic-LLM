@@ -1,0 +1,32 @@
+[run] ProntoQA seed=0
+      -> acc=83.20%  exec_rate=100.00%  n=500  (14s)
+[run] ProntoQA seed=1
+      -> acc=83.20%  exec_rate=100.00%  n=500  (14s)
+[run] ProntoQA seed=2
+      -> acc=83.20%  exec_rate=100.00%  n=500  (14s)
+[run] ProofWriter seed=0
+      -> acc=79.67%  exec_rate=99.00%  n=600  (13s)
+[run] ProofWriter seed=1
+      -> acc=79.50%  exec_rate=99.00%  n=600  (13s)
+[run] ProofWriter seed=2
+      -> acc=79.33%  exec_rate=99.00%  n=600  (13s)
+[run] FOLIO seed=0
+      -> acc=69.12%  exec_rate=79.90%  n=204  (44s)
+[run] FOLIO seed=1
+      -> acc=74.02%  exec_rate=78.92%  n=204  (31s)
+[run] FOLIO seed=2
+      -> acc=74.02%  exec_rate=79.90%  n=204  (42s)
+[run] LogicalDeduction seed=0
+      -> acc=87.63%  exec_rate=100.00%  n=299  (3s)
+[run] LogicalDeduction seed=1
+      -> acc=87.63%  exec_rate=100.00%  n=299  (3s)
+[run] LogicalDeduction seed=2
+      -> acc=87.63%  exec_rate=100.00%  n=299  (3s)
+[run] AR-LSAT seed=0
+      -> acc=32.17%  exec_rate=32.61%  n=230  (41s)
+[run] AR-LSAT seed=1
+      -> acc=30.43%  exec_rate=32.61%  n=230  (41s)
+[run] AR-LSAT seed=2
+      -> acc=35.65%  exec_rate=32.61%  n=230  (41s)
+
+Wrote results/my_results.csv

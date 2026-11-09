@@ -1,0 +1,7 @@
+ProntoQA          paper=  83.2  mine= 83.20 +/- 0.00  diff=  +0.0%  exec=100.0  Reproduced
+ProofWriter       paper= 79.66  mine= 79.50 +/- 0.17  diff=  -0.2%  exec= 99.0  Reproduced
+FOLIO             paper= 78.92  mine= 72.39 +/- 2.83  diff=  -8.3%  exec= 79.6  Partly
+LogicalDeduction  paper= 87.63  mine= 87.63 +/- 0.00  diff=  +0.0%  exec=100.0  Reproduced
+AR-LSAT           paper= 43.04  mine= 32.75 +/- 2.66  diff= -23.9%  exec= 32.6  Not reproduced
+
+Wrote results/summary.csv and results/table1.tex

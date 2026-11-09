@@ -1,0 +1,11 @@
+$ /usr/bin/python3 -c <wrapper> 2 --model_name gpt-4 --dataset_name LogicalDeduction --split dev --backup_strategy random --backup_LLM_result_path ./baselines/results/CoT_LogicalDeduction_dev_gpt-4.json
+
+Loaded 299 examples from dev split.
+  0%|          | 0/299 [00:00<?, ?it/s] 35%|███▌      | 105/299 [00:00<00:00, 1040.77it/s] 70%|███████   | 210/299 [00:00<00:00, 772.29it/s] 100%|██████████| 299/299 [00:00<00:00, 893.86it/s]
+Error count: 0
+
+
+===== models/evaluation.py =====
+Overall accuracy: 0.8762541806020067
+Executable rate (Exe_Rate): 1.0
+Executable accuracy (Exe_Acc): 0.8762541806020067

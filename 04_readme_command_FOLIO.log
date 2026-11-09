@@ -1,0 +1,11 @@
+/content/Logic-LLM/models/symbolic_solvers/fol_solver/fol_parser.py:91: SyntaxWarning: invalid escape sequence '\w'
+  NOTE: since nltk does not support reg strs like \w+, we cannot separately recognize VAR, PRED, and CONST.
+Loaded 204 examples from dev split.
+  0%|          | 0/204 [00:00<?, ?it/s]  1%|          | 2/204 [00:00<00:12, 16.27it/s]  2%|▏         | 4/204 [00:00<00:12, 15.86it/s]  3%|▎         | 6/204 [00:00<00:13, 15.21it/s]  4%|▍         | 8/204 [00:00<00:12, 15.55it/s]  5%|▍         | 10/204 [00:00<00:11, 16.81it/s]  6%|▌         | 12/204 [00:00<00:11, 17.27it/s]  8%|▊         | 17/204 [00:00<00:07, 26.27it/s] 10%|▉         | 20/204 [00:01<00:08, 22.33it/s] 11%|█▏        | 23/204 [00:01<00:08, 20.92it/s] 13%|█▎        | 26/204 [00:01<00:08, 19.87it/s] 14%|█▍        | 29/204 [00:01<00:09, 19.21it/s] 15%|█▌        | 31/204 [00:01<00:09, 18.06it/s] 16%|█▌        | 33/204 [00:01<00:14, 11.86it/s] 17%|█▋        | 35/204 [00:02<00:13, 12.43it/s] 20%|█▉        | 40/204 [00:02<00:09, 16.53it/s] 21%|██        | 42/204 [00:02<00:11, 14.55it/s] 22%|██▏       | 44/204 [00:02<00:11, 13.77it/s] 23%|██▎       | 46/204 [00:02<00:11, 14.15it/s] 24%|██▎       | 48/204 [00:02<00:11, 13.75it/s] 25%|██▍       | 50/204 [00:03<00:13, 11.15it/s] 25%|██▌       | 52/204 [00:03<00:12, 11.84it/s] 27%|██▋       | 56/204 [00:03<00:09, 16.26it/s] 28%|██▊       | 58/204 [00:03<00:08, 16.26it/s] 29%|██▉       | 60/204 [00:03<00:09, 15.18it/s] 30%|███       | 62/204 [00:04<00:11, 12.89it/s] 31%|███▏      | 64/204 [00:04<00:10, 13.06it/s] 32%|███▏      | 66/204 [00:04<00:10, 12.86it/s] 32%|███▏      | 66/204 [00:20<00:10, 12.86it/s]Traceback (most recent call last):
+  File "/content/Logic-LLM/models/evaluation.py", line 120, in <module>
+    full_evaluation(result_file)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/content/Logic-LLM/models/evaluation.py", line 97, in full_evaluation
+    with open(result_file, 'r') as f:
+         ~~~~^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './outputs/logic_inference/FOLIO_dev_gpt-4_backup-random.json'

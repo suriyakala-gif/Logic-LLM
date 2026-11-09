@@ -1,0 +1,14 @@
+Collecting z3-solver
+  Downloading z3_solver-5.3.3.0-py3-none-manylinux_2_27_x86_64.whl.metadata (777 bytes)
+Collecting python-constraint
+  Downloading python-constraint-1.4.0.tar.bz2 (18 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: nltk in /usr/local/lib/python3.13/dist-packages (3.9.1)
+Requirement already satisfied: tqdm in /usr/local/lib/python3.13/dist-packages (4.67.3)
+ERROR: Could not find a version that satisfies the requirement pyke3 (from versions: none)
+ERROR: No matching distribution found for pyke3

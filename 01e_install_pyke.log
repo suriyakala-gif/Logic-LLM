@@ -1,0 +1,5 @@
+Collecting scitools-pyke==1.1.1
+  Downloading scitools_pyke-1.1.1-py3-none-any.whl.metadata (1.2 kB)
+Downloading scitools_pyke-1.1.1-py3-none-any.whl (142 kB)
+Installing collected packages: scitools-pyke
+Successfully installed scitools-pyke-1.1.1

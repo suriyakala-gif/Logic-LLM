@@ -1,0 +1,6 @@
+dataset,executed,total,exe_acc
+AR-LSAT,75,230,60.0
+FOLIO,163,204,80.37
+LogicalDeduction,299,299,87.63
+ProntoQA,500,500,83.2
+ProofWriter,594,600,79.63

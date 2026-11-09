@@ -1,0 +1,16 @@
+dataset,split,model,seed,n_questions,accuracy,exec_rate,runtime_s,status
+ProntoQA,dev,gpt-4,0,500,83.20,100.00,14.3,ok
+ProntoQA,dev,gpt-4,1,500,83.20,100.00,14.0,ok
+ProntoQA,dev,gpt-4,2,500,83.20,100.00,13.7,ok
+ProofWriter,dev,gpt-4,0,600,79.67,99.00,12.9,ok
+ProofWriter,dev,gpt-4,1,600,79.50,99.00,13.1,ok
+ProofWriter,dev,gpt-4,2,600,79.33,99.00,13.0,ok
+FOLIO,dev,gpt-4,0,204,69.12,79.90,44.1,ok
+FOLIO,dev,gpt-4,1,204,74.02,78.92,30.6,ok
+FOLIO,dev,gpt-4,2,204,74.02,79.90,42.0,ok
+LogicalDeduction,dev,gpt-4,0,299,87.63,100.00,3.3,ok
+LogicalDeduction,dev,gpt-4,1,299,87.63,100.00,3.0,ok
+LogicalDeduction,dev,gpt-4,2,299,87.63,100.00,2.7,ok
+AR-LSAT,dev,gpt-4,0,230,32.17,32.61,41.0,ok
+AR-LSAT,dev,gpt-4,1,230,30.43,32.61,41.3,ok
+AR-LSAT,dev,gpt-4,2,230,35.65,32.61,41.3,ok

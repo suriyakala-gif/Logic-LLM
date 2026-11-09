@@ -1,0 +1,17 @@
+\begin{table}[t]
+\caption{Logic-LM accuracy (\%): paper vs.\ this reproduction (mean $\pm$ std over 3 seeds).}
+\label{tab:results}
+\centering\footnotesize
+\setlength{\tabcolsep}{3pt}
+\begin{tabular}{lcccp{2.2cm}}
+\hline
+Dataset & Paper & Mine & Diff.\ (\%) & Note \\
+\hline
+ProntoQA & 83.20 & 83.2 $\pm$ 0.0 & +0.0 & Exact; all programs run \\
+ProofWriter & 79.66 & 79.5 $\pm$ 0.2 & -0.2 & Within 1\% \\
+FOLIO & 78.92 & 72.4 $\pm$ 2.8 & -8.3 & Random backup (paper: CoT) \\
+LogicalDeduction & 87.63 & 87.6 $\pm$ 0.0 & +0.0 & After Python 3.13 fix \\
+AR-LSAT & 43.04 & 32.8 $\pm$ 2.7 & -23.9 & Random backup (paper: CoT) \\
+\hline
+\end{tabular}
+\end{table}

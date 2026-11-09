@@ -1,0 +1,6 @@
+dataset,n_seeds,n_questions,paper_accuracy,my_mean,my_std,exec_rate,diff_pct,verdict,note
+ProntoQA,3,500,83.2,83.20,0.00,100.0,+0.0,Reproduced,Exact; all programs run
+ProofWriter,3,600,79.66,79.50,0.17,99.0,-0.2,Reproduced,Within 1%
+FOLIO,3,204,78.92,72.39,2.83,79.6,-8.3,Partly,Random backup (paper: CoT)
+LogicalDeduction,3,299,87.63,87.63,0.00,100.0,+0.0,Reproduced,After Python 3.13 fix
+AR-LSAT,3,230,43.04,32.75,2.66,32.6,-23.9,Not reproduced,Random backup (paper: CoT)

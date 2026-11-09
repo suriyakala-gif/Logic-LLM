@@ -67,7 +67,7 @@ def score(path):
 
 def find_output(dataset, split, model, since):
     """The inference file the authors' script just wrote."""
-    pattern = os.path.join("outputs", "logic_inferences", f"*{dataset}*{split}*{model}*.json")
+    pattern = os.path.join("outputs", "logic_inference*", f"*{dataset}*{split}*{model}*.json")
     files = [p for p in glob.glob(pattern) if os.path.getmtime(p) >= since]
     return max(files, key=os.path.getmtime) if files else None
 

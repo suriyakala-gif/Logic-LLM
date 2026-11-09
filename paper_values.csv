@@ -1,6 +1,6 @@
 dataset,paper_accuracy,note
-ProntoQA,,
-ProofWriter,,
-FOLIO,,
-LogicalDeduction,,
-AR-LSAT,,
+ProntoQA,83.20,Exact; all programs run
+ProofWriter,79.66,Within 1%
+FOLIO,78.92,Random backup (paper: CoT)
+LogicalDeduction,87.63,After Python 3.13 fix
+AR-LSAT,43.04,Random backup (paper: CoT)

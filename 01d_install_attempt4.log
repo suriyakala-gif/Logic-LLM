@@ -1,0 +1,35 @@
+Collecting z3-solver
+  Using cached z3_solver-5.3.3.0-py3-none-manylinux_2_27_x86_64.whl.metadata (777 bytes)
+Collecting python-constraint
+  Using cached python-constraint-1.4.0.tar.bz2 (18 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting func_timeout
+  Downloading func_timeout-4.3.5.tar.gz (44 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Downloading z3_solver-5.3.3.0-py3-none-manylinux_2_27_x86_64.whl (37.9 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 37.9/37.9 MB 74.2 MB/s  0:00:00
+Building wheels for collected packages: python-constraint, func_timeout
+  Building wheel for python-constraint (pyproject.toml): started
+  Building wheel for python-constraint (pyproject.toml): finished with status 'done'
+  Created wheel for python-constraint: filename=python_constraint-1.4.0-py2.py3-none-any.whl size=24107 sha256=db9386bd6e81a6faf642186873de46b03484be894d845d38fb638f36cfd97725
+  Stored in directory: /root/.cache/pip/wheels/f4/b8/c6/1f1e3b56069cb07de800d72df63b47af5ca79bbad5b8952f70
+  Building wheel for func_timeout (pyproject.toml): started
+  Building wheel for func_timeout (pyproject.toml): finished with status 'done'
+  Created wheel for func_timeout: filename=func_timeout-4.3.5-py3-none-any.whl size=15161 sha256=906d95c05645272ef3236f14800af63c891301d0f20b8a260cf861794d25d2b8
+  Stored in directory: /root/.cache/pip/wheels/2a/5b/5a/f0265ca0122db89c4a9381bd442bbc09de72077ea713791cbe
+Successfully built python-constraint func_timeout
+Installing collected packages: z3-solver, python-constraint, func_timeout
+
+Successfully installed func_timeout-4.3.5 python-constraint-1.4.0 z3-solver-5.3.3.0
+ERROR: Could not find a version that satisfies the requirement pyke (from versions: none)
+ERROR: No matching distribution found for pyke

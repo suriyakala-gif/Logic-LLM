@@ -1,0 +1,18 @@
+total 11940
+drwxr-xr-x 2 root root    4096 Nov  9 06:03 .
+drwxr-xr-x 3 root root    4096 Nov  9 06:03 ..
+-rw-r--r-- 1 root root  603632 Nov  9 06:03 AR-LSAT_dev_gpt-3.5-turbo.json
+-rw-r--r-- 1 root root  605672 Nov  9 06:03 AR-LSAT_dev_gpt-4.json
+-rw-r--r-- 1 root root  601618 Nov  9 06:03 AR-LSAT_dev_text-davinci-003.json
+-rw-r--r-- 1 root root  347252 Nov  9 06:03 FOLIO_dev_gpt-3.5-turbo.json
+-rw-r--r-- 1 root root  336907 Nov  9 06:03 FOLIO_dev_gpt-4.json
+-rw-r--r-- 1 root root  326815 Nov  9 06:03 FOLIO_dev_text-davinci-003.json
+-rw-r--r-- 1 root root  549964 Nov  9 06:03 LogicalDeduction_dev_gpt-3.5-turbo.json
+-rw-r--r-- 1 root root  547855 Nov  9 06:03 LogicalDeduction_dev_gpt-4.json
+-rw-r--r-- 1 root root  548133 Nov  9 06:03 LogicalDeduction_dev_text-davinci-003.json
+-rw-r--r-- 1 root root 1040277 Nov  9 06:03 ProntoQA_dev_gpt-3.5-turbo.json
+-rw-r--r-- 1 root root 1014637 Nov  9 06:03 ProntoQA_dev_gpt-4.json
+-rw-r--r-- 1 root root 1051296 Nov  9 06:03 ProntoQA_dev_text-davinci-003.json
+-rw-r--r-- 1 root root 1514300 Nov  9 06:03 ProofWriter_dev_gpt-3.5-turbo.json
+-rw-r--r-- 1 root root 1561361 Nov  9 06:03 ProofWriter_dev_gpt-4.json
+-rw-r--r-- 1 root root 1545499 Nov  9 06:03 ProofWriter_dev_text-davinci-003.json
