@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this reproduction, please cite it as below, and cite the original Logic-LM paper (preferred-citation)."
+title: "Reproduction of Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning"
+type: software
+authors:
+  - family-names: "[FILL: your surname]"
+    given-names: "Keerthana"
+    orcid: "https://orcid.org/0000-0000-0000-0000"   # FILL: your ORCID (register free at orcid.org)
+repository-code: "https://github.com/suriyakala-gif/Logic-LLM"
+version: 1.0.0
+date-released: "2026-11-15"   # FILL: the date you create the v1.0.0 release
+preferred-citation:
+  type: conference-paper
+  title: "Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning"
+  authors:
+    - family-names: "Pan"
+      given-names: "Liangming"
+    - family-names: "Albalak"
+      given-names: "Alon"
+    - family-names: "Wang"
+      given-names: "Xinyi"
+    - family-names: "Wang"
+      given-names: "William"
+  collection-title: "Findings of the Association for Computational Linguistics: EMNLP 2023"
+  publisher:
+    name: "Association for Computational Linguistics"
+  start: 3806
+  end: 3824
+  year: 2023
+  doi: "10.18653/v1/2023.findings-emnlp.248"
