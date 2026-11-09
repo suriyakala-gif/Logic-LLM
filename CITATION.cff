@@ -5,7 +5,7 @@ type: software
 authors:
   - family-names: "Kala"
     given-names: "Suriya"
-    orcid: "https://orcid.org/0009-0008-3298-0265"   # FILL: your ORCID (register free at orcid.org)
+    orcid: "https://orcid.org/0009-0008-3298-0265"   
 repository-code: "https://github.com/suriyakala-gif/Logic-LLM"
 version: 1.0.0
 date-released: "2026-11-09"
