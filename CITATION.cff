@@ -3,9 +3,9 @@ message: "If you use this reproduction, please cite it as below, and cite the or
 title: "Reproduction of Logic-LM: Empowering Large Language Models with Symbolic Solvers for Faithful Logical Reasoning"
 type: software
 authors:
-  - family-names: "[FILL: your surname]"
-    given-names: "Keerthana"
-    orcid: "https://orcid.org/0000-0000-0000-0000"   # FILL: your ORCID (register free at orcid.org)
+  - family-names: "Kala"
+    given-names: "Suriya"
+    orcid: "https://orcid.org/0009-0008-3298-0265"   # FILL: your ORCID (register free at orcid.org)
 repository-code: "https://github.com/suriyakala-gif/Logic-LLM"
 version: 1.0.0
 date-released: "2026-11-09"
